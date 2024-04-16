@@ -5,7 +5,7 @@ public class Product {
     @Data
     @Entity
     @Table(name = "tbl_product")
-    public class Product {
+    public class product {
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private Long productId;
